@@ -835,6 +835,8 @@ Redfern_nms <- subset(FY_Ref, Supplier_ID == 2875856 & GL_Operating_Unit_ID == 2
 Redfern_cts <- subset(FY_Ref, Supplier_ID == 2875856 & GL_Operating_Unit_ID == 250)
 Redfern_opg <- subset(FY_Ref, Supplier_ID == 2875856 & GL_Operating_Unit_ID == 470)
 
+
+
 qplot(data = Redferm_moj, x = Net_Value)
 qplot(x = Net_Value, data = Redferm_moj, xlim = c(0, 700))
 
